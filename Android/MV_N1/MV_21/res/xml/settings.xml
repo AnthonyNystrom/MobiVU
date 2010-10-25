@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference android:title="Nick Name" android:summary="Used for your identification" android:dialogTitle="Nick Name" android:key="@string/prefNikName"></EditTextPreference>
+<EditTextPreference android:title="IP Server" android:dialogTitle="IP Server" android:key="@string/prefIPServer" android:defaultValue="69.21.114.139"></EditTextPreference>
+<ListPreference android:dialogTitle="@string/prefMode" android:title="@string/prefMode" android:entries="@array/entries_list_preference_mode" android:entryValues="@array/entries_list_preference_values_mode" android:key="@string/prefMode" android:defaultValue="0"></ListPreference>
+<RingtonePreference android:ringtoneType="ringtone" android:showSilent="true" android:showDefault="true" android:title="@string/prefringtonein" android:key="@string/prefringtonein"></RingtonePreference>
+<RingtonePreference android:showSilent="true" android:title="@string/prefringtoneout" android:key="@string/prefringtoneout" android:ringtoneType="notification" android:showDefault="true"></RingtonePreference>
+</PreferenceScreen>

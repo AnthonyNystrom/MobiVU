@@ -1,0 +1,121 @@
+
+#if 1
+
+// static library
+TARGET		libavcodec.lib
+TARGETTYPE	lib
+
+
+#else
+
+// dll
+
+TARGET		libavcodec.dll
+TARGETTYPE	dll
+#ifdef EKA2
+UID		0x1000008d 0x0
+VENDORID	0
+CAPABILITY	UserEnvironment LocalServices
+#else
+UID		0x1000008d 0x0
+SOURCE		dllentrypoint.cpp
+#endif
+
+NOSTRICTDEF
+
+#ifdef EKA2
+#ifdef WINSCW
+DEFFILE .\libavcodec_bwins.def
+#else
+DEFFILE .\libavcodec_eabi.def
+#endif
+#else
+EXPORTUNFROZEN
+#endif
+
+
+#endif
+
+
+OPTION GCC -O2
+
+
+MACRO	HAVE_AV_CONFIG_H
+MACRO	_FILE_OFFSET_BITS=64
+MACRO	_LARGEFILE_SOURCE
+MACRO	_ISOC9X_SOURCE
+#ifndef EKA2
+MACRO	__GNUC__
+#endif
+MACRO	M_E=2.7182818284590452354
+
+
+USERINCLUDE	..\ffmpeg
+USERINCLUDE	..\ffmpeg\libavutil
+
+SOURCEPATH	.
+SOURCE		libc.c
+
+SOURCEPATH	..\ffmpeg\libavcodec
+
+SOURCE		bitstream.c
+SOURCE		utils.c
+SOURCE		allcodecs.c
+SOURCE		mpegvideo.c
+SOURCE		jrevdct.c
+SOURCE		jfdctfst.c
+SOURCE		jfdctint.c
+SOURCE		mjpeg.c
+SOURCE		resample.c
+SOURCE		resample2.c
+SOURCE		dsputil.c
+SOURCE		motion_est.c
+SOURCE		imgconvert.c
+SOURCE		mpeg12.c
+SOURCE		mpegaudiodec.c
+SOURCE		simple_idct.c
+SOURCE		ratecontrol.c
+SOURCE		eval.c
+SOURCE		error_resilience.c
+SOURCE		fft.c
+SOURCE		mdct.c
+SOURCE		raw.c
+SOURCE		golomb.c
+SOURCE		cabac.c
+SOURCE		faandct.c
+SOURCE		parser.c
+SOURCE		vp3dsp.c
+SOURCE		h264idct.c
+SOURCE		rangecoder.c
+SOURCE		pnm.c
+SOURCE		h263.c
+SOURCE		msmpeg4.c
+SOURCE		h263dec.c
+SOURCE		opt.c
+SOURCE		bitstream_filter.c
+SOURCE		audioconvert.c
+
+/*
+SOURCE		armv4l\jrevdct_arm.S
+SOURCE		armv4l\simple_idct_arm.S
+SOURCE		armv4l\dsputil_arm_s.S
+SOURCE		armv4l\dsputil_arm.c
+SOURCE		armv4l\mpegvideo_arm.c
+*/
+/*
+SOURCE		armv4l\dsputil_iwmmxt.c
+SOURCE		armv4l\mpegvideo_iwmmxt.c
+SOURCE		armv4l\simple_idct_armv5te.S
+*/
+
+
+SYSTEMINCLUDE	\epoc32\include
+SYSTEMINCLUDE	\epoc32\include\libc
+SYSTEMINCLUDE	headers
+
+LIBRARY		euser.lib estlib.lib
+//STATICLIBRARY	libavutil.lib
+
+
+SOURCEPATH .
+SOURCE encodetest.cpp mainwrapper.cpp

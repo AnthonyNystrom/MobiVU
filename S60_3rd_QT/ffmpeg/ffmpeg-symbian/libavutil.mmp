@@ -1,0 +1,71 @@
+
+#if 1
+
+// static library
+TARGET		libavutil.lib
+TARGETTYPE	lib
+
+#else
+
+// dll
+
+TARGET		libavutil.dll
+TARGETTYPE	dll
+#ifdef EKA2
+UID		0x1000008d 0x0
+VENDORID	0
+CAPABILITY	UserEnvironment LocalServices
+#else
+UID		0x1000008d 0x0
+SOURCE		dllentrypoint.cpp
+#endif
+
+NOSTRICTDEF
+
+#ifdef EKA2
+#ifdef WINSCW
+DEFFILE .\libavutil_bwins.def
+#else
+DEFFILE .\libavutil_eabi.def
+#endif
+#else
+EXPORTUNFROZEN
+#endif
+
+
+#endif
+
+OPTION GCC -O2
+
+
+MACRO	HAVE_AV_CONFIG_H
+MACRO	_FILE_OFFSET_BITS=64
+MACRO	_LARGEFILE_SOURCE
+MACRO	_ISOC9X_SOURCE
+MACRO	BUILD_AVUTIL
+
+
+USERINCLUDE	..\ffmpeg
+SOURCEPATH	..\ffmpeg\libavutil
+
+SOURCE		mathematics.c
+SOURCE		rational.c
+SOURCE		intfloat_readwrite.c
+SOURCE		crc.c
+SOURCE		md5.c
+SOURCE		lls.c
+SOURCE		adler32.c
+SOURCE		log.c
+SOURCE		mem.c
+SOURCE		fifo.c
+SOURCE		tree.c
+
+SYSTEMINCLUDE	\epoc32\include
+SYSTEMINCLUDE	\epoc32\include\libc
+SYSTEMINCLUDE	headers
+
+LIBRARY		euser.lib estlib.lib
+
+
+SOURCEPATH .
+SOURCE encodetest.cpp libc.c mainwrapper.cpp

@@ -1,0 +1,21 @@
+/*
+ * Copyright © 2008 Nokia Corporation.
+ */
+
+#ifndef AUDIOSTREAM_HRH
+#define AUDIOSTREAM_HRH
+
+enum TAudioStreamCommandIds
+    {
+    EAudioStreamCmdPlay = 1,
+    EAudioStreamCmdRecord,
+    EAudioStreamCmdStop,
+    EAudioStreamCmdLoad,
+    EAudioStreamCmdSelectEncoding,
+    EAudioStreamCmdPcm,
+    EAudioStreamCmdAmr,
+    EAudioStreamCmdSave
+    };
+
+
+#endif      // AUDIOSTREAM_HRH

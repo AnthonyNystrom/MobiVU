@@ -1,0 +1,10 @@
+
+PRJ_MMPFILES
+libavcodec.mmp
+libavcodec_ext.mmp
+libavformat.mmp
+libavutil.mmp
+libswscale.mmp
+libavdevice.mmp
+ffmpeg.mmp
+gnumakefile ..\sis\pyffmpeg.mak

@@ -1,0 +1,15 @@
+
+&EN
+
+#{"ffmpeg"},(0xA000A014),0,0,1
+
+%{""}
+
+:""
+
+[0x101F7961],0,0,0,{"S60ProductID"}
+
+"$(EPOCROOT)epoc32\release\$(PLATFORM)\$(TARGET)\ffmpeg.exe"			- "!:\sys\bin\ffmpeg.exe"
+"$(EPOCROOT)epoc32\data\z\private\10003a3f\import\apps\ffmpeg_reg.rsc"	- "!:\private\10003a3f\import\apps\ffmpeg_reg.rsc"
+"backup_registration.xml"												- "!:\private\A000A014\backup_registration.xml"
+

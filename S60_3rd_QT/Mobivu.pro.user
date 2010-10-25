@@ -1,0 +1,634 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-CommunicationType</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-CustomKeyPath</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-CustomSignaturePath</variable>
+  <value type="QString"></value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString">Mobivu.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString">Mobivu on Symbian Device</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-SerialPortName</variable>
+  <value type="QString">COM3</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-SigningMode</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString">Qt4ProjectManager.DeviceRunConfiguration</value>
+ </data>
+ <data>
+  <variable>RunConfiguration1-ProFile</variable>
+  <value type="QString">Mobivu.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration1-RunConfiguration.name</variable>
+  <value type="QString">Mobivu in Symbian Emulator</value>
+ </data>
+ <data>
+  <variable>RunConfiguration1-type</variable>
+  <value type="QString">Qt4ProjectManager.EmulatorRunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</value>
+   <value key="QtVersionId" type="int">5</value>
+   <value key="ToolChain" type="int">6</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</value>
+   <value key="QtVersionId" type="int">5</value>
+   <value key="ToolChain" type="int">6</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</value>
+   <value key="QtVersionId" type="int">7</value>
+   <value key="ToolChain" type="int">6</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+   <value key="QtVersionId" type="int">7</value>
+   <value key="ToolChain" type="int">6</value>
+   <value key="addQDumper" type=""></value>
+   <value key="buildConfiguration" type="int">0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=Nokia_N97_SDK_v1.0:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\Nokia_N97_SDK_v1.0\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\gcc\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/Mobivu/Mobivu/Mobivu.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">symbian-abld</value>
+    <value type="QString">-r</value>
+    <value type="QString">CONFIG+=release</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">c:/qt/4.6.2/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=Nokia_N97_SDK_v1.0:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\Nokia_N97_SDK_v1.0\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\gcc\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">release-gcce</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=Nokia_N97_SDK_v1.0:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\Nokia_N97_SDK_v1.0\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\gcc\bin;C:\S60\devices\Nokia_N97_SDK_v1.0\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/Mobivu/Mobivu/Mobivu.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">symbian-abld</value>
+    <value type="QString">-r</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">c:/qt/4.6.2/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">debug-gcce</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release-buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">C:/Mobivu/Mobivu/Mobivu.pro</value>
+    <value type="QString">-spec</value>
+    <value type="QString">symbian-abld</value>
+    <value type="QString">-r</value>
+    <value type="QString">CONFIG+=release</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">c:/qt/4.6.2/bin/qmake.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release-buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">release-gcce</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release-cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList">
+    <value type="QString">ALLUSERSPROFILE=C:\Documents and Settings\All Users</value>
+    <value type="QString">APPDATA=C:\Documents and Settings\Administrator\Dati applicazioni</value>
+    <value type="QString">CLIENTNAME=Console</value>
+    <value type="QString">COMMONPROGRAMFILES=C:\Programmi\File comuni</value>
+    <value type="QString">COMPUTERNAME=VMSYMBIAN</value>
+    <value type="QString">COMSPEC=C:\WINDOWS\system32\cmd.exe</value>
+    <value type="QString">EPOCDEVICE=S60_3rd_FP2_SDK_v1.1:com.nokia.s60</value>
+    <value type="QString">EPOCROOT=\S60\devices\S60_3rd_FP2_SDK_v1.1\</value>
+    <value type="QString">FP_NO_HOST_CHECK=NO</value>
+    <value type="QString">HOMEDRIVE=C:</value>
+    <value type="QString">HOMEPATH=\Documents and Settings\Administrator</value>
+    <value type="QString">J2D_D3D=false</value>
+    <value type="QString">LOGONSERVER=\\VMSYMBIAN</value>
+    <value type="QString">MWCSYM2INCLUDES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C\MSL_X86;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_C++\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Common\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\MSL\MSL_Extras\MSL_Win32\Include;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Headers\Win32 SDK</value>
+    <value type="QString">MWSYM2LIBRARIES=C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Win32-x86 Support\Libraries\Win32 SDK;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Support\Runtime\Runtime_x86\Runtime_Win32\Libs</value>
+    <value type="QString">MWSYM2LIBRARYFILES=MSL_All_MSE_Symbian_D.lib;gdi32.lib;user32.lib;kernel32.lib;</value>
+    <value type="QString">NUMBER_OF_PROCESSORS=1</value>
+    <value type="QString">OS=Windows_NT</value>
+    <value type="QString">PATH=C:\Programmi\CSL Arm Toolchain\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\gcc\bin;C:\S60\devices\S60_3rd_FP2_SDK_v1.1\epoc32\tools;C:\Qt\4.6.2\bin;C:\Perl\bin\;C:\Programmi\PC Connectivity Solution\;C:\Programmi\Nokia\Carbide.c++ v2.3\x86Build\Symbian_Tools\Command_Line_Tools;C:\Perl\site\bin;C:\Perl\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programmi\File comuni\Symbian\tools;C:\Programmi\CSL Arm Toolchain\bin;C:\Qt\4.6.2\bin;C:\Qt\qt-mobility-src-1.0.0-beta1\lib;C:\Programmi\TortoiseSVN\bin;C:\Qt\2010.02.1\bin</value>
+    <value type="QString">PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH</value>
+    <value type="QString">PROCESSOR_ARCHITECTURE=x86</value>
+    <value type="QString">PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel</value>
+    <value type="QString">PROCESSOR_LEVEL=6</value>
+    <value type="QString">PROCESSOR_REVISION=170a</value>
+    <value type="QString">PROGRAMFILES=C:\Programmi</value>
+    <value type="QString">QTDIR=C:/Qt/4.6.2</value>
+    <value type="QString">SESSIONNAME=Console</value>
+    <value type="QString">SYSTEMDRIVE=C:</value>
+    <value type="QString">SYSTEMROOT=C:\WINDOWS</value>
+    <value type="QString">TEMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">TMP=C:\DOCUME~1\ADMINI~1\IMPOST~1\Temp</value>
+    <value type="QString">USERDOMAIN=VMSYMBIAN</value>
+    <value type="QString">USERNAME=Administrator</value>
+    <value type="QString">USERPROFILE=C:\Documents and Settings\Administrator</value>
+    <value type="QString">WINDIR=C:\WINDOWS</value>
+   </valuelist>
+   <value key="abstractProcess.IgnoreReturnValue" type="bool">true</value>
+   <valuelist key="abstractProcess.arguments" type="QVariantList">
+    <value type="QString">clean</value>
+    <value type="QString">-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString">C:/S60/devices/S60_3rd_FP2_SDK_v1.1/epoc32/tools/make.exe</value>
+   <value key="abstractProcess.enabled" type="bool">true</value>
+   <value key="abstractProcess.workingDirectory" type="QString">C:/Mobivu/Mobivu</value>
+   <value key="cleanConfig" type="bool">true</value>
+   <valuelist key="makeargs" type="QVariantList">
+    <value type="QString">clean</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Debug</value>
+   <value type="QString">S60_3rd_FP2_SDK_v1.1 (Qt 4.6.2) Release</value>
+   <value type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Debug</value>
+   <value type="QString">Nokia_N97_SDK_v1.0 (Qt 4.6.2) Release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="mkspec" type="QString"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.qmake</value>
+   <value type="QString">trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap">
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString"></value>
+   <value key="clean" type="bool">true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray">System</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+</qtcreator>

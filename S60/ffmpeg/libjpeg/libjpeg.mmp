@@ -1,0 +1,100 @@
+
+#if 1
+
+// static library
+TARGET		libjpeg.lib
+TARGETTYPE	lib
+
+#else
+
+// dll
+
+TARGET		libjpeg.dll
+TARGETTYPE	dll
+#ifdef EKA2
+UID		0x1000008d 0x0
+VENDORID	0
+CAPABILITY	UserEnvironment LocalServices
+#else
+UID		0x1000008d 0x0
+SOURCE		dllentrypoint.cpp
+#endif
+
+NOSTRICTDEF
+
+#ifdef EKA2
+#ifdef WINSCW
+DEFFILE .\libjpeg_bwins.def
+#else
+DEFFILE .\libjpeg_eabi.def
+#endif
+#else
+EXPORTUNFROZEN
+#endif
+
+MACRO JPEG_DLL
+
+#endif
+
+OPTION GCC -O2
+
+// COMOBJECTS
+SOURCE		jcomapi.c
+SOURCE		jutils.c
+SOURCE		jerror.c
+SOURCE		jmemmgr.c
+
+// SYSDEPMEM
+SOURCE		jmemnobs.c
+
+// CLIOBJECTS
+SOURCE		jcapimin.c
+SOURCE		jcapistd.c
+SOURCE		jctrans.c
+SOURCE		jcparam.c
+SOURCE		jdatadst.c
+SOURCE		jcinit.c
+SOURCE		jcmaster.c
+SOURCE		jcmarker.c
+SOURCE		jcmainct.c
+SOURCE		jcprepct.c
+SOURCE		jccoefct.c
+SOURCE		jccolor.c
+SOURCE		jcsample.c
+SOURCE		jchuff.c
+SOURCE		jcphuff.c
+SOURCE		jcdctmgr.c
+SOURCE		jfdctfst.c
+SOURCE		jfdctflt.c
+SOURCE		jfdctint.c
+
+// DLIOBJECTS
+SOURCE		jdapimin.c
+SOURCE		jdapistd.c
+SOURCE		jdtrans.c
+SOURCE		jdatasrc.c
+SOURCE		jdmaster.c
+SOURCE		jdinput.c
+SOURCE		jdmarker.c
+SOURCE		jdhuff.c
+SOURCE		jdphuff.c
+SOURCE		jdmainct.c
+SOURCE		jdcoefct.c
+SOURCE		jdpostct.c
+SOURCE		jddctmgr.c
+SOURCE		jidctfst.c
+SOURCE		jidctflt.c
+SOURCE		jidctint.c
+SOURCE		jidctred.c
+SOURCE		jdsample.c
+SOURCE		jdcolor.c
+SOURCE		jquant1.c
+SOURCE		jquant2.c
+SOURCE		jdmerge.c ansi2knr.c cdjpeg.c cjpeg.c ckconfig.c djpeg.c example.c jmemansi.c jmemdos.c jmemdosa.asm jmemmac.c jmemname.c jpegtran.c rdbmp.c rdcolmap.c rdgif.c rdjpgcom.c rdppm.c rdrle.c rdswitch.c rdtarga.c transupp.c wrbmp.c wrgif.c wrjpgcom.c wrppm.c wrrle.c wrtarga.c
+
+SYSTEMINCLUDE	\epoc32\include
+SYSTEMINCLUDE	\epoc32\include\libc
+
+LIBRARY		euser.lib estlib.lib
+
+

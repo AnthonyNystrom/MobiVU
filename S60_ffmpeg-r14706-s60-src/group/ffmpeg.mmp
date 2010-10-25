@@ -1,0 +1,66 @@
+
+TARGET			ffmpeg.exe
+TARGETTYPE		EXE
+//CAPABILITY		LocalServices NetworkServices ReadUserData UserEnvironment WriteUserData
+CAPABILITY		None
+UID				0x100039CE 0xA000A014
+SECUREID		0xA000A014
+VENDORID		0
+EPOCHEAPSIZE	0x1000 0x01FFFFFF
+
+LANG SC
+
+USERINCLUDE ../src/libavcodec ../src/libavdevice ../src/libavformat ../src/libavutil ../src/libswscale ../src
+SYSTEMINCLUDE /epoc32/include /epoc32/include/stdapis /epoc32/include/stdapis/glib-2.0/glib
+
+SOURCEPATH ../data
+START RESOURCE ffmpeg_reg.rss
+#ifdef WINSCW
+TARGETPATH /private/10003a3f/apps
+#else
+TARGETPATH /private/10003a3f/import/apps
+#endif
+END
+
+SOURCEPATH ../src
+SOURCE ffmpeg.c cmdutils.c
+
+MACRO NDEBUG
+MACRO HAVE_AV_CONFIG_H
+MACRO _FILE_OFFSET_BITS=64
+MACRO _LARGEFILE_SOURCE
+MACRO _ISOC9X_SOURCE
+MACRO __REMOVE_PLATSEC_DIAGNOSTIC_STRINGS__
+
+STATICLIBRARY libcrt0.lib
+STATICLIBRARY libavcodec.lib
+STATICLIBRARY libavcodec_ext.lib
+STATICLIBRARY libavformat.lib
+STATICLIBRARY libavutil.lib
+STATICLIBRARY libswscale.lib
+STATICLIBRARY libavdevice.lib
+STATICLIBRARY libfaac.lib
+STATICLIBRARY libfaad.lib
+STATICLIBRARY libmp3lame.lib
+STATICLIBRARY libx264.lib
+STATICLIBRARY libxvidcore.lib
+STATICLIBRARY libogg.lib
+STATICLIBRARY libvorbis.lib
+STATICLIBRARY liba52.lib
+STATICLIBRARY libamrnb.lib
+STATICLIBRARY libamrwb.lib
+STATICLIBRARY libdirac.lib
+STATICLIBRARY libgsm.lib
+STATICLIBRARY libnut.lib
+STATICLIBRARY liboil.lib
+STATICLIBRARY libschroedinger.lib
+STATICLIBRARY libtheora.lib
+
+LIBRARY euser.lib
+LIBRARY libc.lib
+LIBRARY libm.lib
+LIBRARY libz.lib
+LIBRARY libglib.lib
+LIBRARY libstdcpp.lib
+LIBRARY libpthread.lib
+

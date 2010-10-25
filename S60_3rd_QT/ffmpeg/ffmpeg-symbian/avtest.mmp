@@ -1,0 +1,28 @@
+
+TARGET		avtest.exe
+TARGETTYPE	exe
+
+UID		0
+
+EPOCSTACKSIZE	200000
+EPOCHEAPSIZE	40 5000000
+
+USERINCLUDE	..\ffmpeg
+USERINCLUDE	..\ffmpeg\libavutil
+USERINCLUDE	..\ffmpeg\libavcodec
+
+SOURCE		encodetest.cpp
+SOURCE		mainwrapper.cpp libc.c
+
+SYSTEMINCLUDE	\epoc32\include
+SYSTEMINCLUDE	\epoc32\include\libc
+SYSTEMINCLUDE	headers
+
+STATICLIBRARY	libavcodec.lib
+STATICLIBRARY	libavutil.lib
+LIBRARY		euser.lib estlib.lib
+#ifndef EKA2
+STATICLIBRARY	libgcc.lib
+#endif
+
+

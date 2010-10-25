@@ -1,0 +1,17 @@
+
+TARGET		libavformat.lib
+TARGETTYPE	lib
+UID			0
+
+USERINCLUDE ../src ../src/libavcodec ../src/libavformat ../src/libavutil ../include
+SYSTEMINCLUDE /epoc32/include /epoc32/include/stdapis
+
+SOURCEPATH ../src/libavformat
+SOURCE 4xm.c adtsenc.c aiff.c allformats.c amr.c apc.c ape.c asf-enc.c asf.c asfcrypt.c au.c avc.c avidec.c avienc.c avio.c aviobuf.c avs.c bethsoftvid.c bfi.c c93.c crcenc.c cutils.c daud.c dsicin.c dv.c dvenc.c dxa.c eacdata.c electronicarts.c ffmdec.c ffmenc.c file.c flic.c flvdec.c flvenc.c framecrcenc.c framehook.c gif.c gxf.c gxfenc.c http.c idcin.c idroq.c iff.c img2.c ipmovie.c isom.c lmlm4.c matroska.c matroskadec.c matroskaenc.c mm.c mmf.c mov.c movenc.c mp3.c mpc.c mpc8.c mpeg.c mpegenc.c mpegts.c mpegtsenc.c mpjpeg.c msnwc_tcp.c mtv.c mvi.c mxf.c nsvdec.c nut.c nutdec.c nutenc.c nuv.c oggdec.c oggenc.c oggparseflac.c oggparseogm.c oggparsespeex.c oggparsetheora.c oggparsevorbis.c oma.c os_support.c psxstr.c pva.c raw.c riff.c rl2.c rmdec.c rmenc.c rpl.c rtp.c rtp_aac.c rtp_h264.c rtp_mpv.c rtpdec.c rtpenc.c rtpenc_h264.c rtpproto.c rtsp.c sdp.c segafilm.c sierravmd.c siff.c smacker.c sol.c swfdec.c swfenc.c tcp.c thp.c tiertexseq.c tta.c txd.c udp.c utils.c vc1test.c voc.c vocdec.c vocenc.c wav.c wc3movie.c westwood.c wv.c xa.c yuv4mpeg.c libnut.c
+
+MACRO NDEBUG
+MACRO HAVE_AV_CONFIG_H
+MACRO _FILE_OFFSET_BITS=64
+MACRO _LARGEFILE_SOURCE
+MACRO _ISOC9X_SOURCE
+

@@ -1,0 +1,10 @@
+PRJ_MMPFILES
+
+libavcodec.mmp
+libavutil.mmp
+
+PRJ_TESTMMPFILES
+
+avtest.mmp
+
+

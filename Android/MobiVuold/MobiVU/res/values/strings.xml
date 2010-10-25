@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MobiVU!</string>
+    <string name="app_name">MobiVU</string>
+<string name="prefNikName">prefNikName</string>
+<string name="prefIPServer">prefIPServer</string>
+<string name="users_online">Users Online</string>
+<string name="prefMode">Mode</string>
+<string name="prefringtonein">Ringtone Incoming</string>
+<string name="prefringtoneout">Ringtone Outgoing</string>
+</resources>

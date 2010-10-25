@@ -1,0 +1,77 @@
+/*
+============================================================================
+ Name		: DemoVideoCall.mmp
+ Author	  : 7TouchGroup
+ Copyright   : 7TouchGroup
+ Description : This is the project specification file for DemoVideoCall.
+============================================================================
+*/
+
+
+TARGET			DemoVideoCall_0xE5EC06EB.exe
+TARGETTYPE		exe
+UID		  0x100039CE 0xE5EC06EB
+
+SOURCEPATH		..\src
+SOURCE			DemoVideoCall.cpp
+SOURCE			DemoVideoCallApplication.cpp
+SOURCE			DemoVideoCallAppView.cpp
+SOURCE			DemoVideoCallAppUi.cpp
+SOURCE			DemoVideoCallDocument.cpp
+SOURCE 			Camera.cpp 
+SOURCE 			Sink.cpp 
+SOURCE 			TimeOutTimer.cpp
+SOURCE 			ffdecode.cpp
+
+SOURCEPATH		..\data
+
+START RESOURCE	DemoVideoCall.rss
+HEADER
+TARGET DemoVideoCall_0xE5EC06EB
+TARGETPATH resource\apps
+END //RESOURCE
+
+START RESOURCE	DemoVideoCall_reg.rss
+TARGET DemoVideoCall_0xE5EC06EB_reg
+TARGETPATH 	  \private\10003a3f\apps
+END //RESOURCE
+
+
+
+USERINCLUDE	   ..\inc
+USERINCLUDE    ..\help
+
+SYSTEMINCLUDE	 \epoc32\include\libc \epoc32\include \epoc32\include\mmf\common \epoc32\include\mmf\plugin \epoc32\include\mmf\server ..\ffmpeg\libjpeg ..\ffmpeg\ffmpeg\libavcodec ..\ffmpeg\ffmpeg\libavutil ..\ffmpeg\ffmpeg-symbian\headers ..\ffmpeg\ffmpeg\libavformat
+
+LIBRARY			euser.lib apparc.lib cone.lib eikcore.lib avkon.lib
+LIBRARY			commonengine.lib efsrv.lib estor.lib eikcoctl.lib eikdlg.lib 
+LIBRARY			eikctl.lib bafl.lib fbscli.lib aknnotify.lib aknicon.lib
+LIBRARY			etext.lib gdi.lib egul.lib insock.lib
+LIBRARY			ecom.lib InetProtUtil.lib http.lib hlplch.lib bluetooth.lib btextnotifiers.lib btmanclient.lib esock.lib
+LIBRARY         imageconversion.lib sdpagent.lib sdpdatabase.lib bitgdi.lib ecam.lib charconv.lib platformenv.lib mediaclientvideo.lib estlib.lib mediaclientaudioinputstream.lib hwrmlightclient.lib hal.lib camcmediarecorder.lib mmfcontrollerframework.lib ws32.lib commdb.lib mediaclientaudiostream.lib mediaclientaudio.lib
+STATICLIBRARY libavcodec.lib libavutil.lib libjpeg.lib
+
+LANG SC
+
+
+
+VENDORID	  	  0
+SECUREID		  0xE5EC06EB
+CAPABILITY        UserEnvironment NetworkServices
+
+#ifdef ENABLE_ABIV2_MODE
+DEBUGGABLE
+#endif
+// End of File
+
+SOURCEPATH ..\src
+SOURCE SocketsEngine.cpp SocketsReader.cpp SettingExampleListView.cpp SettingExampleSettingList.cpp SettingExampleSettingsData.cpp SettingExampleCheckboxSetting.cpp DefaultView.cpp Engine.cpp SocketsWriter.cpp AudioStreamEngine.cpp EngineDecode.cpp
+START BITMAP DemoVideoCall.mbm
+	TARGETPATH resource\apps
+	HEADER
+	SOURCEPATH ..\gfx
+	SOURCE c24 logo.bmp logo_logged.bmp b_outcoming.bmp b_incoming.bmp 7_incoming.bmp 7_listen.bmp 7_outcoming.bmp b_listen.bmp b_speak_both.bmp b_speak.bmp 7_speak_both.bmp 7_speak.bmp
+END
+EPOCSTACKSIZE 80000
+
+EPOCHEAPSIZE 40 10000000

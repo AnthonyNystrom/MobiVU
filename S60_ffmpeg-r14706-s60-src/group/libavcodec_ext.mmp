@@ -1,0 +1,34 @@
+
+TARGET		libavcodec_ext.lib
+TARGETTYPE	lib
+UID			0
+
+USERINCLUDE ../include ../include/vorbis ../include/amrnb ../include/amrwb
+USERINCLUDE ../src/libavcodec ../src/libavdevice ../src/libavformat ../src/libavutil ../src/libswscale ../src
+SYSTEMINCLUDE /epoc32/include /epoc32/include/stdapis
+
+SOURCEPATH ../src/libavcodec
+SOURCE libfaac.c
+SOURCE libfaad.c
+SOURCE libmp3lame.c
+SOURCE libx264.c
+SOURCE libxvid_rc.c
+SOURCE libxvidff.c
+SOURCE libvorbis.c
+SOURCE liba52.c
+SOURCE libamr.c
+SOURCE libdirac_libschro.c
+SOURCE libdiracdec.c
+SOURCE libdiracenc.c
+SOURCE libgsm.c
+SOURCE libschroedinger.c
+SOURCE libschroedingerdec.c
+SOURCE libschroedingerenc.c
+SOURCE libtheoraenc.c
+
+MACRO NDEBUG
+MACRO HAVE_AV_CONFIG_H
+MACRO _FILE_OFFSET_BITS=64
+MACRO _LARGEFILE_SOURCE
+MACRO _ISOC9X_SOURCE
+

@@ -1,0 +1,17 @@
+
+TARGET		libavutil.lib
+TARGETTYPE	lib
+UID			0
+
+USERINCLUDE ../src/libavcodec ../src/libavdevice ../src/libavformat ../src/libavutil ../src/libswscale ../src
+SYSTEMINCLUDE /epoc32/include /epoc32/include/stdapis
+
+SOURCEPATH ../src/libavutil
+SOURCE string.c adler32.c aes.c base64.c crc.c des.c fifo.c integer.c intfloat_readwrite.c lls.c log.c lzo.c mathematics.c md5.c mem.c random.c rational.c rc4.c sha1.c softfloat.c tree.c
+
+MACRO NDEBUG
+MACRO HAVE_AV_CONFIG_H
+MACRO _FILE_OFFSET_BITS=64
+MACRO _LARGEFILE_SOURCE
+MACRO _ISOC9X_SOURCE
+

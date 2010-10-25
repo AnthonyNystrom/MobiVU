@@ -1,0 +1,9 @@
+&EN
+
+#{"FFmpeg test"},(0x0x00ff3636),1,0,0
+
+;Supports Series 60  v2.0
+(0x101F7960), 0, 0, 0, {"Series60ProductID"}
+
+"epoc32\release\armi\urel\avtest.exe"-"e:\avtest.exe"
+

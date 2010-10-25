@@ -1,0 +1,46 @@
+Check out revision 7261 from the ffmpeg svn repository into a directory
+named ffmpeg, next to ffmpeg-symbian.
+
+cd ..
+svn co -r7261 svn://svn.mplayerhq.hu/ffmpeg/trunk ffmpeg
+
+In order to compile a project using libavcodec, you have to
+copy <gccroot>/lib/gcc-lib/arm-epoc-pe/2.9-psion-98r2/libgcc.a into
+epoc32/release/armi/urel/libgcc.lib (only needed on EKA1).
+
+libavcodec can't be compiled using the original/official gcc, but
+must be compiled using GCC 3.0-psion-98r2, from the Symbian GCC
+Improvement Project, or using CSL GCC for the GCCE target.
+
+On Windows, you'll have to install GCC 3.0-psion-98r2. (You'll need it
+even if using an EKA2 SDK, since those SDK still use an ancient bundled
+GCC for preprocessing when checking dependencies. (When using GnuPoc on
+Linux with an EKA2 SDK, it will use the much more modern CSL GCC for
+dependency checking, so no extra compiler is needed.)
+
+Rename the epoc32/gcc directory to gcc-orig, and extract GCC 3.0
+(downloadable from http://www.inf.u-szeged.hu/symbian-gcc/dload.php)
+into the epocroot directory, so that it takes the place of the
+original bundled gcc. Copy
+gcc/lib/gcc-lib/arm-epoc-pe/3.0-psion-98r2/cpp0.exe into gcc/bin/cpp.exe.
+Backup epoc32/tools/prepfile.pm and makdeps.pm and remove the "-undef"
+parameter from the cpp invocations.
+
+After compiling the ffmpeg libraries, you probably want to revert to
+the original gcc (at least on EKA1), since GCC 3.0 seems to crash
+when compiling C++ code which includes the ffmpeg headers...
+
+When compiling on Linux using GnuPoc, this is slightly easier. For
+EKA2 SDKs, just compile it as usually. For EKA1 SDKS, install
+GCC 3.0-psion-98r2 (e.g. using the compile-scripts within sdk2unix),
+point your scripts (or PATH env variable) to this compiler, compile
+the libraries, and point your scripts or env variables back to the
+original compiler.
+
+And last but not least, copy libgcc.a into
+epoc32/release/armi/urel/libgcc.lib before compiling any project which
+links to the ffmpeg libraries, since those projects will need this
+library, too.
+
+
+

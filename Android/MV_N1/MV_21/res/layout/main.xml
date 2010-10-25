@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/bklay" android:background="@drawable/bk">
+<com.mobivu.FrameView android:id="@+id/imgFrame" android:layout_marginLeft="20dp" android:layout_marginTop="14dp" android:layout_width="294dp" android:layout_height="240dp" android:visibility="gone"/>
+<SurfaceView android:id="@+id/previewCamera" android:layout_marginTop="8dp" android:layout_toRightOf="@+id/imgFrame" android:layout_marginLeft="33dp" android:layout_width="1px" android:layout_height="1px"></SurfaceView><ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imgMainButton" android:clickable="true" android:focusable="true" android:src="@drawable/greenoffbut" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginRight="20dp"></ImageView>
+
+<com.mobivu.TransparentPanel android:id="@+id/outgoing_window" 
+	android:layout_width="250dp" 
+	android:layout_height="wrap_content" 
+	android:orientation="vertical" 
+	android:gravity="center_horizontal" 
+	android:padding="1dp" 
+	android:layout_centerHorizontal="true" 
+	android:layout_centerVertical="true">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:gravity="center_horizontal" 
+		android:id="@+id/mainLayoutOut" 
+		android:orientation="horizontal" 
+		android:background="@drawable/button_bar_gradient">		    
+			<TextView android:id="@+id/txtoutgoingcall" 
+				android:layout_width="wrap_content" 
+				android:gravity="center_horizontal" 
+				android:layout_height="wrap_content" 
+				android:textStyle="bold" 
+				android:textSize="22dp" 
+				android:layout_marginTop="5dp" 
+				android:text="Calling..." 
+				android:textColor="@drawable/android_orange" />	
+			</LinearLayout>
+					<TextView android:id="@+id/user_outgoing_call" 
+					android:gravity="center_horizontal" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:textStyle="bold" 
+					android:textSize="28dp" 
+					android:textColor="@drawable/white" 
+					android:layout_marginTop="15dp" />
+			<Button android:id="@+id/rejectioutgoingcall" 
+				android:layout_width="fill_parent" 
+				android:layout_height="80px" 
+				style="?android:attr/buttonStyle" 
+				android:textStyle="bold" 
+				android:textColor="@drawable/white" 
+				android:textSize="22dp" 
+				android:text="Reject" 
+				android:background="@drawable/button_black" />							
+	</com.mobivu.TransparentPanel>
+
+<com.mobivu.TransparentPanel android:id="@+id/incoming_window" 
+	android:layout_height="wrap_content" 
+	android:orientation="vertical" 
+	android:gravity="left" 
+	android:padding="1px" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_width="wrap_content">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="299dp"
+		    android:layout_height="fill_parent"
+		    android:gravity="center_horizontal" 		    
+		    android:id="@+id/mainLayout" android:orientation="horizontal"
+		    android:background="@drawable/button_bar_gradient">
+		    	<Button android:id="@+id/rejectincomingcall" 
+		    	android:layout_width="100dp" 
+		    	android:layout_height="50dp" 
+		    	android:layout_marginTop="1dp" 
+		    	android:layout_marginRight="10dp" 
+		    	android:paddingLeft="5dp" 
+		    	android:paddingRight="5dp" 
+		    	style="?android:attr/buttonStyle" 
+		    	android:textStyle="bold" 
+		    	android:textColor="@drawable/white" 
+		    	android:textSize="16dp" 
+		    	android:text="Reject" 
+		    	android:background="@drawable/button_black" />
+		    	
+		    	<TextView android:id="@+id/txtincomingcall" 
+		    	android:layout_width="wrap_content" 
+		    	android:gravity="center_horizontal" 
+		    	android:layout_height="wrap_content" 
+		    	android:textStyle="bold" 
+		    	android:textSize="16dp" 
+		    	android:paddingRight="15dp"
+		    	android:text="Incoming"  
+		    	android:textColor="@drawable/android_orange"/>
+		    	
+		    	<Button android:id="@+id/acceptconv" 
+		    	android:layout_width="100dp" 
+		    	android:layout_height="50dp" 
+		    	android:layout_alignParentRight="true" 
+		    	android:layout_marginTop="1dp" 		    	
+		    	android:paddingLeft="5dp" 
+		    	android:paddingRight="1dp" 
+		    	style="?android:attr/buttonStyle"
+				android:textStyle="bold" 
+				android:textColor="@drawable/white" 
+				android:textSize="16dp" 
+				android:text="Accept" 
+				android:background="@drawable/button_black" />
+				
+				<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+				android:orientation="vertical" 
+				android:layout_width="fill_parent" 
+				android:layout_height="1dp" 
+				android:layout_marginTop="5dp" 
+				android:layout_below="@+id/hide_popup_button" 
+				android:background="@drawable/white" />
+		</LinearLayout>
+		    
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+		    android:layout_height="80dp"
+		    android:gravity="center_horizontal" 
+		    android:id="@+id/mainLayout" android:orientation="vertical">    
+			<TextView android:id="@+id/user_incoming_call" android:gravity="center_horizontal" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:textStyle="bold" 
+				android:textSize="22dp" 
+				android:textColor="@drawable/white" 
+				android:layout_marginTop="5dp" />
+		</LinearLayout>        
+	</com.mobivu.TransparentPanel>
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:id="@+id/txtUser" android:textSize="25dp" android:layout_alignBottom="@+id/imgMainButton" android:layout_marginLeft="10dp" android:layout_marginBottom="5dp"></TextView>	
+<Button android:layout_toRightOf="@+id/txtUser" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/butLowQ" android:text="Low" android:layout_marginLeft="30dp" android:visibility="gone"></Button>
+<Button android:layout_toRightOf="@+id/butLowQ" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="High" android:layout_marginLeft="45dp" android:id="@+id/butHighQ" android:visibility="gone"></Button><Button android:layout_toRightOf="@+id/butLowQ" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Mid" android:id="@+id/butMidQ" android:visibility="gone"></Button>
+
+</RelativeLayout>

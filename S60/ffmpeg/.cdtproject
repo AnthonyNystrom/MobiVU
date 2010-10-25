@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse-cdt version="2.0"?>
+
+<cdtproject id="com.nokia.carbide.cpp.project.core.carbidecppproject">
+<extension id="com.nokia.carbide.cpp.project.core.CarbideCPPScannerProvider" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+<extension id="com.nokia.carbide.cdt.builder" point="com.nokia.carbide.cdt.builder.carbideCPPBuilder">
+<attribute key="debugTargetMMP" value="libavcodec.mmp"/>
+<attribute key="infFileLocation" value="ffmpeg-symbian\bld.inf"/>
+<attribute key="defaultBuildConfig" value="Phone Debug (GCCE) [S60_3rd_FP1]"/>
+<attribute key="buildFromInf" value="true"/>
+<attribute key="infBuildComponents" value=""/>
+<attribute key="cleanCommand" value="clean"/>
+</extension>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<data>
+<item id="org.eclipse.cdt.core.pathentry">
+<pathentry kind="src" path="ffmpeg"/>
+<pathentry kind="src" path="ffmpeg-symbian"/>
+<pathentry kind="con" path="com.nokia.carbide.cpp.project.core.CARBIDE_CPP_PATH_INFO"/>
+</item>
+</data>
+</cdtproject>

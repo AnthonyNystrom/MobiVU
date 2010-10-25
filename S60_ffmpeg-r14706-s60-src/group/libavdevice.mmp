@@ -1,0 +1,17 @@
+
+TARGET		libavdevice.lib
+TARGETTYPE	lib
+UID			0
+
+USERINCLUDE ../src/libavcodec ../src/libavdevice ../src/libavformat ../src/libavutil ../src/libswscale ../src
+SYSTEMINCLUDE /epoc32/include /epoc32/include/stdapis
+
+SOURCEPATH ../src/libavdevice
+SOURCE alldevices.c
+
+MACRO NDEBUG
+MACRO HAVE_AV_CONFIG_H
+MACRO _FILE_OFFSET_BITS=64
+MACRO _LARGEFILE_SOURCE
+MACRO _ISOC9X_SOURCE
+

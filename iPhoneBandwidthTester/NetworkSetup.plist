@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Server IP Address</key>
+	<string>69.21.114.154</string>
+	<key>UDP Port</key>
+	<integer>9051</integer>
+	<key>UDP Packet Length</key>
+	<integer>1024</integer>
+</dict>
+</plist>

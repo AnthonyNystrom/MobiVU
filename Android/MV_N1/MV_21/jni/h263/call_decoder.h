@@ -1,0 +1,2 @@
+int InitDecoder();
+void ReleaseDecoder();

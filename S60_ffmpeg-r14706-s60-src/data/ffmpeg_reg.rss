@@ -1,0 +1,11 @@
+#include <appinfo.rh>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 0xA000A014
+
+RESOURCE APP_REGISTRATION_INFO {
+	app_file = "ffmpeg";
+	embeddability = KAppNotEmbeddable;
+	newfile = KAppDoesNotSupportNewFile;
+//	hidden = KAppIsHidden;
+}

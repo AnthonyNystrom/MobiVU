@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<storageModule buildFromInf="true" buildingTestComps="true" cleanLevel="0" concurrentBuildJobs="4" defaultMMPChangedAction="0" extraSBSv2Args="" infBuildComponents="" infFileLocation="bld.inf" macrosFile="" makeEngineToUse="make" manageDependencies="true" moduleId="com.nokia.carbide.cdt.builder.carbideCPPBuilder" overrideMakeEngine="false" overrideWorkspaceSettings="false" promptForMMPChangedAction="true" useConcurrentBuilding="true" useDebugMode="false" useIncrementalBuilder="false" useKeepGoing="false" useMMPMacros="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="Phone Debug (GCCE) [Nokia_N97_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Debug (GCCE) [Nokia_N97_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Debug (GCCE) [Nokia_N97_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<SIS_BUILDER_DATA_ID CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="Mobivu_gcce_urel.pkg" SIGNINGTYPESTORAGE="1"/>
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Mobivu\Mobivu\Mobivu_0xE4823eee.mmp;C:\Mobivu\Mobivu\bld.inf;" includesCache="C:/Qt/4.6.2-Symbian/include/QtCore;C:/Qt/4.6.2-Symbian/include/QtCore/tmp;C:/Qt/4.6.2-Symbian/include/QtNetwork;C:/Qt/4.6.2-Symbian/include/QtNetwork/tmp;C:/Qt/4.6.2-Symbian/include/QtGui;C:/Qt/4.6.2-Symbian/include/QtGui/tmp;C:/Qt/4.6.2-Symbian/include/QtMultimedia;C:/Qt/4.6.2-Symbian/include/QtMultimedia/tmp;C:/Qt/4.6.2-Symbian/include/QtWebKit;C:/Qt/4.6.2-Symbian/include/QtWebKit/tmp;C:/Qt/4.6.2-Symbian/include;C:/Qt/4.6.2-Symbian/include/tmp;C:/Qt/4.6.2-Symbian/mkspecs/common/symbian;C:/Qt/4.6.2-Symbian/mkspecs/common/symbian/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include;C:/Mobivu/Mobivu;C:/Mobivu/Mobivu/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis/sys;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/mmf/common;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavcodec;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavcodec/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavformat;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavformat/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libswscale;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libswscale/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavutil;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavutil/tmp;C:/Mobivu/Mobivu/ffmpeg/libjpeg;C:/Mobivu/Mobivu/ffmpeg/libjpeg/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis/stlport;C:/Qt/4.6.2-Symbian/include/QtXmlPatterns;C:/Qt/4.6.2-Symbian/include/QtXmlPatterns/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/domain/middleware;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/domain/middleware/loc;" macrosCache="QT_CORE_LIB;_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__MARM_ARMV5__;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;__GCCE__;QT_MULTIMEDIA_LIB;__MARM__;QT_USE_MATH_H_FLOATS;__EXE__;__SERIES60_3X__;__S60_3X__;QT_WEBKIT_LIB;__S60_5X__;__EPOC32__;__GENERIC_MARM__;QT_GUI_LIB;UNICODE;QT_NETWORK_LIB;QT_SOFTKEYS_ENABLED;__EABI__;_DEBUG;__S60_50__;" moduleId="configDataCache" sourcesCache="" timestampCache="1275332653983" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+</cconfiguration>
+<cconfiguration id="Phone Release (GCCE) [Nokia_N97_SDK_v1.0]">
+<storageModule buildSystemId="com.nokia.carbide.cdt.builder.CarbideConfigurationDataProvider" id="Phone Release (GCCE) [Nokia_N97_SDK_v1.0]" moduleId="org.eclipse.cdt.core.settings" name="Phone Release (GCCE) [Nokia_N97_SDK_v1.0]">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.cdt.debug.cw.symbian.SymbianE32" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.CarbideMakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.SBSv2ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.Elf2E32ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.RCOMPErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCECompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.MakeDefErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCEAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="com.nokia.carbide.cdt.builder.GCCELinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+<storageModule moduleId="CarbideConfigurationDataProvider">
+<SIS_BUILDER_DATA_ID CREATESTUBSTORAGE="false" ENABLEDSTORAGE="true" PARTIALUPGRADESTORAGE="false" PKGFILESTORAGE="Mobivu_gcce_urel.pkg" SIGNINGTYPESTORAGE="1"/>
+<ENV_VAR_DATA_ID/>
+<ARGUMENTS_DATA_ID ABLDFREEZEARGSSTORAGE="-r"/>
+<ROM_BUILDER_DATA_ID ROMBUILDWORKINGDIRECTORYSTORAGE="C:\"/>
+</storageModule>
+<storageModule filesCache="C:\Mobivu\Mobivu\Mobivu_0xE4823eee.mmp;C:\Mobivu\Mobivu\bld.inf;" includesCache="C:/Qt/4.6.2-Symbian/include/QtCore;C:/Qt/4.6.2-Symbian/include/QtCore/tmp;C:/Qt/4.6.2-Symbian/include/QtNetwork;C:/Qt/4.6.2-Symbian/include/QtNetwork/tmp;C:/Qt/4.6.2-Symbian/include/QtGui;C:/Qt/4.6.2-Symbian/include/QtGui/tmp;C:/Qt/4.6.2-Symbian/include/QtMultimedia;C:/Qt/4.6.2-Symbian/include/QtMultimedia/tmp;C:/Qt/4.6.2-Symbian/include/QtWebKit;C:/Qt/4.6.2-Symbian/include/QtWebKit/tmp;C:/Qt/4.6.2-Symbian/include;C:/Qt/4.6.2-Symbian/include/tmp;C:/Qt/4.6.2-Symbian/mkspecs/common/symbian;C:/Qt/4.6.2-Symbian/mkspecs/common/symbian/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include;C:/Mobivu/Mobivu;C:/Mobivu/Mobivu/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis/sys;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/mmf/common;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavcodec;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavcodec/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavformat;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavformat/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libswscale;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libswscale/tmp;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavutil;C:/Mobivu/Mobivu/ffmpeg/ffmpeg/libavutil/tmp;C:/Mobivu/Mobivu/ffmpeg/libjpeg;C:/Mobivu/Mobivu/ffmpeg/libjpeg/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/stdapis/stlport;C:/Qt/4.6.2-Symbian/include/QtXmlPatterns;C:/Qt/4.6.2-Symbian/include/QtXmlPatterns/tmp;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/domain/middleware;C:/S60/devices/Nokia_N97_SDK_v1.0/epoc32/include/domain/middleware/loc;" macrosCache="QT_CORE_LIB;_UNICODE;__SUPPORT_CPP_EXCEPTIONS__;__MARM_ARMV5__;NDEBUG;__SYMBIAN32__;QT_KEYPAD_NAVIGATION;__GCCE__;QT_MULTIMEDIA_LIB;__MARM__;QT_USE_MATH_H_FLOATS;__EXE__;__SERIES60_3X__;__S60_3X__;QT_WEBKIT_LIB;__S60_5X__;__EPOC32__;__GENERIC_MARM__;QT_GUI_LIB;UNICODE;QT_NETWORK_LIB;QT_SOFTKEYS_ENABLED;__EABI__;__S60_50__;" moduleId="configDataCache" sourcesCache="" timestampCache="1275332653983" useMmpMacrosCache="true"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+</cconfiguration>
+</storageModule>
+</cproject>

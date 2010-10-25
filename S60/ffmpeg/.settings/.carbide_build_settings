@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CarbideBuilderConfigInfo version="1">
+  <configuration name="Emulator Debug (WINSCW) [S60_3rd_FP1]">
+    <sisBuilder additionalOptions="" cert="" contentSearchLocation="" key="" outputFileName="" password="" pkgFile="(none)" signedFileName=""/>
+    <envVars/>
+  </configuration>
+  <configuration name="Phone Debug (ARMV5) [S60_3rd_FP1]">
+    <sisBuilder additionalOptions="" cert="" contentSearchLocation="" key="" outputFileName="" password="" pkgFile="(none)" signedFileName=""/>
+    <envVars/>
+  </configuration>
+  <configuration name="Phone Release (ARMV5) [S60_3rd_FP1]">
+    <sisBuilder additionalOptions="" cert="" contentSearchLocation="" key="" outputFileName="" password="" pkgFile="(none)" signedFileName=""/>
+    <envVars/>
+  </configuration>
+  <configuration name="Phone Debug (GCCE) [S60_3rd_FP1]">
+    <sisBuilder additionalOptions="" cert="" contentSearchLocation="" key="" outputFileName="" password="" pkgFile="(none)" signedFileName=""/>
+    <envVars/>
+  </configuration>
+  <configuration name="Phone Release (GCCE) [S60_3rd_FP1]">
+    <sisBuilder additionalOptions="" cert="" contentSearchLocation="" key="" outputFileName="" password="" pkgFile="(none)" signedFileName=""/>
+    <envVars/>
+  </configuration>
+</CarbideBuilderConfigInfo>

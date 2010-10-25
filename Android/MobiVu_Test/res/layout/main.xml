@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status" android:id="@+id/TextStatus"></TextView>
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextVideo" android:text="Frames Video"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextAudio" android:text="Frames Audio"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unknow" android:id="@+id/TextUnknow"></TextView><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center_horizontal"><Button android:layout_height="wrap_content" android:text="Login" android:id="@+id/butLogin" android:layout_width="100dp"></Button><Button android:layout_height="wrap_content" android:text="Logout" android:id="@+id/butLogout" android:layout_width="100dp"></Button><Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Get Video..." android:id="@+id/butGetVideo"></Button>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center_horizontal"><Button android:layout_height="wrap_content" android:layout_width="100dp" android:id="@+id/butRecStart" android:text="Rec.Start"></Button><Button android:layout_height="wrap_content" android:layout_width="100dp" android:id="@+id/butRecStop" android:text="Rec.Stop"></Button><Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/butGetAudio" android:text="Get Audio..."></Button>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_gravity="center_horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/butAV" android:text="Audio &amp; Video"></Button></LinearLayout><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+
+
+
+
+
+
+
+
+
+
+<SurfaceView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/surface"></SurfaceView>
+</LinearLayout>

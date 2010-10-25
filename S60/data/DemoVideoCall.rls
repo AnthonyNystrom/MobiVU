@@ -1,0 +1,47 @@
+/*
+============================================================================
+ Name		: DemoVideoCall.rls
+ Author	  : 7TouchGroup
+ Copyright   : 7TouchGroup
+ Description : This is a localisation file for DemoVideoCall
+				A .rls file is the one and only place where the logical
+				strings to be localised are defined. 
+============================================================================
+*/
+
+//  LOCALISATION STRINGS
+
+// Caption string for app.
+#define qtn_caption_string "DemoVideoCall"
+
+#define qtn_settings "Settings"
+#define qtn_rec_on "Recorder ON"
+#define qtn_rec_off "Recorder OFF"
+#define qtn_get_audio "Get Audio Rec."
+#define qtn_get_video "Get Video Rec."
+#define qtn_get_av "Get AV Rec."
+#define qtn_debug "Debug"
+#define qtn_call "Call"
+#define qtn_about "About"
+#define qtn_camera "Camera"
+#define qtn_camera_f "Front"
+#define qtn_camera_r "Rear"
+#define qtn_quality "Quality"
+#define qtn_quality_l "Low"
+#define qtn_quality_m "Medium"
+#define qtn_quality_h "High"
+#define qtn_quality_hh "Highest"
+
+// Third item in "Options" menu pane
+#define qtn_exit "Exit"
+
+// When user requests ECommand1 event, text below is shown.
+#define qtn_command1_text "Demo VideoCall"
+
+#define qtn_loc_resource_file_1 "\\resource\\apps\\DemoVideoCall_0xE5EC06EB"
+
+#define qtn_about_dialog_title "About"
+
+#define qtn_about_dialog_text "DemoVideoCall Version 1.0.0\n\nAuthor: 7TouchGroup\n\nSupport: support@mycompany.com\n\n(c) 7TouchGroup"
+
+// End of File

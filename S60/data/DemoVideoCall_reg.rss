@@ -1,0 +1,27 @@
+/*
+============================================================================
+ Name		: DemoVideoCall.rss
+ Author	  : 7TouchGroup
+ Copyright   : 7TouchGroup
+ Description : This file contains the application registration resource.
+============================================================================
+*/
+
+#include "DemoVideoCall.hrh"
+#include "DemoVideoCall.rls"
+#include <appinfo.rh>
+#include <DemoVideoCall_0xE5EC06EB.rsg>
+
+UID2 KUidAppRegistrationResourceFile
+UID3 _UID3
+
+RESOURCE APP_REGISTRATION_INFO
+	{
+	app_file="DemoVideoCall_0xE5EC06EB";
+	localisable_resource_file =  qtn_loc_resource_file_1;
+	localisable_resource_id = R_LOCALISABLE_APP_INFO;
+
+	embeddability=KAppNotEmbeddable;
+	newfile=KAppDoesNotSupportNewFile;
+	}
+

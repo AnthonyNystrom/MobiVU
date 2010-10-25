@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:id="@+id/textInfo"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/butDecode" android:text="Decode Video"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/butEncode" android:text="Encode Video"></Button>
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Mic" android:id="@+id/butStartMic"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stop Mic" android:id="@+id/butStopMic"></Button></LinearLayout><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/butEncodeAudio" android:text="Encode Audio"></Button>
+
+
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/butDecodeAudio" android:text="Decode Audio"></Button>
+</LinearLayout>

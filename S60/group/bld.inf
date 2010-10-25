@@ -1,0 +1,22 @@
+/*
+============================================================================
+ Name		: bld.inf
+ Author	  : 7TouchGroup
+ Copyright   : 7TouchGroup
+ Description : This file provides the information required for building the
+				whole of a DemoVideoCall.
+============================================================================
+*/
+
+
+PRJ_PLATFORMS
+WINSCW ARMV5 GCCE
+
+PRJ_MMPFILES
+
+gnumakefile icons_scalable_dc.mk
+
+gnumakefile ..\help\build_help.mk
+
+DemoVideoCall.mmp
+

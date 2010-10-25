@@ -1,0 +1,2 @@
+void InitLog();
+void ReleaseLog();

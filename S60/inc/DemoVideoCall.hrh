@@ -1,0 +1,75 @@
+/*
+ ============================================================================
+ Name		: DemoVideoCall.hrh
+ Author	  : 7TouchGroup
+ Copyright   : 7TouchGroup
+ Description : This file contains declarations for constants of DemoVideoCall.
+ The file can be included in C++ or resource file.
+ ============================================================================
+ */
+#ifndef __DEMOVIDEOCALL_HRH__
+#define __DEMOVIDEOCALL_HRH__
+
+#define _UID3 0xE5EC06EB
+
+// DemoVideoCall enumerate command codes
+enum TDemoVideoCallIds
+	{
+	ECall = 0x6001, // start value must not be 0
+	ESettings,
+	ERecON,
+	ERecOFF,
+	EGetAudioRec,
+	EGetVideoRec,
+	EGetAVRec,
+	EAbout,
+	EAccept,
+	EReject,
+	EEmpty,
+	ECloseConv,
+	EQuality,
+	ECamera,
+	ECameraF,
+	ECameraR,
+	EQL,
+	EQM,
+	EQH,
+	EQHH
+	};
+
+enum TViews
+	{
+		Default=1,
+		Settings
+	};
+
+/**
+ * TMenuCommands - identifiers for commands called from the menu
+ */
+enum TMenuCommands
+{
+	ESettingCmdEdit = 0x1000	// value out of range of other commands
+};
+
+
+/**
+ * TSettingItems - identifiers for individual setting items
+ */
+enum TSettingItems
+    {
+	ESettingText = 1,
+	ESettingCheckbox,
+	ESettingRadioMode,
+	ESettingRadioBrand,
+	ESettingVolume,
+	ESettingSlider,
+	ESettingBinary,
+	ESettingSecret,
+	ESettingNumeric,
+	ESettingDate,
+	ESettingTime,
+	ESettingIp,
+	ESettingPopupList
+    };
+
+#endif // __DEMOVIDEOCALL_HRH__

@@ -1,0 +1,5 @@
+To use these ready-made binaries, copy the files from armi_urel into
+<epocroot>/epoc32/release/armi/urel (or from armv5_urel into
+<epocroot>/epoc32/release/armv5/urel on an EKA2 SDK), instead of
+manually compiling libjpeg and ffmpeg.
+
